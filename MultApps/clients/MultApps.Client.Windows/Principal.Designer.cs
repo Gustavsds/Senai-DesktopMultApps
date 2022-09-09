@@ -38,12 +38,14 @@
             // 
             this.btnAbrirFormPesoIdeal.AutoSize = true;
             this.btnAbrirFormPesoIdeal.BackColor = System.Drawing.SystemColors.Control;
+            this.btnAbrirFormPesoIdeal.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnAbrirFormPesoIdeal.Image = ((System.Drawing.Image)(resources.GetObject("btnAbrirFormPesoIdeal.Image")));
-            this.btnAbrirFormPesoIdeal.Location = new System.Drawing.Point(12, 41);
+            this.btnAbrirFormPesoIdeal.Location = new System.Drawing.Point(46, 19);
             this.btnAbrirFormPesoIdeal.Name = "btnAbrirFormPesoIdeal";
-            this.btnAbrirFormPesoIdeal.Size = new System.Drawing.Size(124, 70);
+            this.btnAbrirFormPesoIdeal.Size = new System.Drawing.Size(111, 100);
             this.btnAbrirFormPesoIdeal.TabIndex = 0;
             this.btnAbrirFormPesoIdeal.Text = "Peso Ideal";
+            this.btnAbrirFormPesoIdeal.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnAbrirFormPesoIdeal.UseVisualStyleBackColor = false;
             this.btnAbrirFormPesoIdeal.Click += new System.EventHandler(this.btnAbrirFormPesoIdeal_Click);
             // 
